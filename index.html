@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Deplace Maison</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" class="goo" version="1.1" width="100%">
+    <defs>
+        <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"></feGaussianBlur>
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 35 -15" result="goo"></feColorMatrix>
+            <feComposite in="SourceGraphic" in2="goo" operator="atop"></feComposite>
+        </filter>
+    </defs>
+  </svg>
+  <div id="cursor"></div>
+
+  <div class="fixed fixed-top changing-font">
+    <img class="logo" src="./assets/logo-v.svg" />
+    <a href="" class="cart ">
+      <span class="hover-underline-animation changing-font">cart</span>&nbsp; &nbsp;0
+    </a>
+  </div>
+
+  <div class="fixed fixed-bot changing-font">
+    <div class="page-links">
+      <ul>
+        <li><a href="" class="hover-underline-animation">Shop</a></li>
+        <li><a href="" class="hover-underline-animation">Collections</a></li>
+        <li><a href="" class="hover-underline-animation">About</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="dummi--div"></div>
+
+  <div id="top"></div>
+  <div class="mob-header">
+    <div><img class="" src="./assets/logo-h.svg" /></div>
+    <div><i id="menu" class="fas fa-bars"></i></div>
+    <!-- <div><img id="menu" src="./assets/menu.png" alt=""></div> -->
+    <div>
+      <a href="" class=" ">
+        <span class="">cart</span>&nbsp; &nbsp;0
+      </a>
+    </div>
+  </div>
+  <div id="mob-nav" class="mob-nav">
+    <div class="nav-head">
+      <div><img class="" src="./assets/logo-h.svg" /></div>
+    <div><i id="menu-close" class="fas fa-bars"></i></div>
+
+      <!-- <div><img id="menu-close" src="./assets/menu.png" alt=""></div> -->
+      <div>
+        <a href="" class=" ">
+          <span class="">cart</span>&nbsp; &nbsp;0
+        </a>
+      </div>
+    </div>
+    <div class="nav-content">
+      <div>
+        <div class="tabs">
+          <h5 class="tabs-title">tabs</h5>
+          <h3><a href="">Shop</a></h3>
+          <h3><a href="">Collection</a></h3>
+          <h3><a href="">About</a></h3>
+        </div>
+        <div class="other">
+          <div class="other-link-cont">
+            <div class="other-link"><a href="">faq</a></div>
+            <div class="other-link"><a href="">returns</a></div>
+          </div>
+          <div class="other-link-cont">
+            <div class="other-link"><a href="">terms</a></div>
+            <div class="other-link"><a href="">privacy</a></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="inquires">
+          <h3>Inquiries  ⟶  hazemelfeky25@gmail.com</h3>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <div class="container">
+    <div class="header">
+      <h1>Spring,</h1>
+      <div class="sub-title">
+        <h1>SUMMER</h1>
+        <h3>COLL.<br>2021</h3>
+      </div>
+    </div>
+    
+    <div class="posters">
+      <div class="poster-cont">
+        <img class="poster" src="./assets/poster1.jpeg" alt="">
+        <div class="poster-details">
+          <span>(01)</span>
+          <span>MAN</span>
+        </div>
+      </div>
+      <div class="poster-cont">
+        <img class="poster" src="./assets/poster2.jpeg" alt="">
+        <div class="poster-details">
+          <span>(02)</span>
+          <span>WMNS</span>
+        </div>
+      </div>
+      
+      <img class="brushes" src="./assets/brushes.svg" alt="">
+    </div>
+
+    <div class="page-link">
+      <a class="hover-underline-animation" href="">Explore</a>
+      <i class="fas fa-angle-double-right"></i>
+    </div>
+    <div style="clear: both;"></div>
+
+    <div class="who">
+      <p>Who we are</p>
+      <h3>An independent brand of <br>urban trekking shoes and accessories <br>that comes from a convergence of<br>arts and personalities.</h3>
+    </div>
+    <div style="clear: both;"></div>
+
+  </div>
+
+  <div class="slider-wrap">
+    <div class="slider">
+      <div class="slider-inner">
+        <div class="dummy-shoe"></div>
+        <div class="shoe">
+          <img src="./assets/5ecf8747b314ba36a789e3c4_ct-army-side-p-500.jpeg" alt="shoe">
+          <img src= "./assets/unisex.svg" alt="unisex" class="uni">
+          <p class="ss">ss/20</p>
+          <h4 class="shoe-name">Carnera</h4>
+          <p class="past-price">€ 255 EUR</p>
+          <p class="now-price">€ 188 EUR</p>
+        </div>
+        <div class="shoe">
+        <img src="./assets/5ed0ca93411f13ef43fe2ef2_ca-black-side-p-500.jpeg" alt="shoe">
+        <img src="./assets/unisex.svg" alt="unisex" class="uni">
+        <p class="ss">ss/20</p>
+        <h4 class="shoe-name">The Eye</h4>
+        <p class="past-price">€ 240 EUR</p>
+          <p class="now-price">€ 144 EUR</p>
+        </div>
+        <div class="shoe">
+          <img src="./assets/5ed0ce1058516c6883c51225_du-sand-side-p-500.jpeg" alt="shoe">
+          <img src="./assets/unisex.svg" alt="unisex" class="uni">
+          <p class="ss">ss/20</p>
+          <h4 class="shoe-name">Cactus</h4>
+          <p class="past-price">€ 240 EUR</p>
+          <p class="now-price">€ 144 EUR</p>
+        </div>
+        <div class="shoe">
+          <img src="./assets/5ed0cf7411a8b0b111096fd5_tc-black-side-p-500.jpeg" alt="shoe">
+          <img src="./assets/unisex.svg" alt="unisex" class="uni">
+          <p class="ss">ss/20</p>
+          <h4 class="shoe-name">The code</h4>
+          <p class="past-price">€ 240 EUR</p>
+          <p class="now-price">€ 144 EUR</p>
+        </div>
+        <div class="shoe">
+          <img src="./assets/5ed0d5b0a20c8f34cdca447c_te-sand-side-p-500.jpeg" alt="shoe">
+          <img src="./assets/unisex.svg" alt="unisex" class="uni">
+          <p class="ss">ss/20</p>
+          <h4 class="shoe-name">Duran</h4>
+          <p class="past-price">€ 255 EUR</p>
+          <p class="now-price">€ 188 EUR</p>
+        </div>
+        <div class="dummy-shoe"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" style="padding-top: 0;">
+    <div class="page-link">
+      <a class="hover-underline-animation" href="">Shop all</a>
+      <i class="fas fa-angle-double-right"></i>
+    </div>
+    <div style="clear: both;"></div>
+  </div>
+
+  <footer>
+    <div class="mail-cont" style="padding-right: 1rem;">
+      <div>
+        <h5>SUBSCRIBE TO NEWSLETTER</h5>
+        <img class="mail" src="./assets/5d2dc19a2be6baa7f9e25b8c_newsletter-face.svg" alt="">
+      </div>
+      <div>
+        <h6>SUBSRIBE TO OUR NEWSLETTER</h6>
+        <form class="form">
+          <input type="text" placeholder="email address">
+          <input type="submit">
+        </form>
+      </div>
+    </div>
+    <div>
+      <div class="links">
+        <h5>info</h5>
+        <a href="">faq</a>
+        <a href="">returns</a>
+        <a href="">contact</a>
+      </div>
+      <a href=""><h5>Cridits</h5></a>
+    </div>
+    <div>
+      <div class="links">
+        <h5>Policy</h5>
+        <a href="">Terms</a>
+        <a href="">Privacy</a>
+        <a href="">Cookie</a>
+      </div>
+      <p>© 2020 déplacé maison.</p>
+    </div>
+    <div>
+      <a href="#top"><i class="fas fa-arrow-up"></i></a>
+      <div>
+        <a href="/"><i class="fab fa-facebook"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src='code.js'></script>
+</body>
+</html>
